@@ -1,0 +1,19 @@
+class Solution:
+    def addDigits(self, num: int) -> int:
+        k=0
+        if num==0:
+            return 0
+        else:
+            if num%9==0:
+                return 9
+            else:
+                k=num%9
+        return k        
+
+
+
+
+
+
+
+
