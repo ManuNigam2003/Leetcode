@@ -13,7 +13,7 @@ public:
             fast = fast->next->next;
         }
 
-        if (prev) prev->next = slow->next;  
+        if (prev) prev->next = slow->next;  // Remove middle node
         delete slow;  // Free memory
 
         return head;
